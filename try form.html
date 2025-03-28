@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Try form</title>
+        <style>
+            form{
+                background-color:yellowgreen;
+            }
+            input{
+                margin:5px;
+                border-color:red
+            }
+            #bst{
+                margin-left:3cm;
+            }
+            label{
+                width:100px;
+                display:inline-block;
+
+            }
+        
+            
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend style="color:red"><b><big>Personel details</big></b></legend>
+            <br>
+       <form>
+        <label>First Name:</label><input type="text" required><br><br>
+        <label>Middle Name:</label><input type="text"><br><br>
+        <label>Last Name:</label><input type="text" required><br><br>
+        <label>Gender:</label><input type="radio" value="male" name="gender" id="male" >Male
+                      <input type="radio" name="gender" value="female" id="female">Female <br><br>
+        <label>Father's Name:</label><input type="text" required><br><br>
+        <label>Mother's Name:</label><input type="text"><br><br>
+        <label>Contact Number:</label><input type="tel" maxlength="10" required><br><br>
+        <label>Spouse Name:</label><input type="text"><br><br>
+        <label>Email:</label><input type="email" placeholder="abc@gmail.com" required><br><br>
+        <label>Permanent Address:</label><input type="text" required><br><br>
+        <label>Education:</label><input type="text" required><br><br>
+        <label>Disabled:</label><input type="radio" name="ability" value="no" >No
+                        <input type="radio" value="yes" name="ability" required>Yes <br><br>
+                
+        <input type="submit" value="Submit" id="bst" required><br><br>
+       </fieldset>
+       </form> 
+    </body>
+</html>
